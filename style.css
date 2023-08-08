@@ -277,7 +277,7 @@ header {
 }
 
 .contact {
-    max-width: 60%;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -298,6 +298,10 @@ header {
     text-transform: uppercase;
     font-weight: 700;
     /* color: #580081; 820984 521982; */
+}
+
+.h1Skills {
+    margin-top: 60px;
 }
 
 .h2 {
@@ -321,7 +325,7 @@ header {
 
 .h3words {
     /* margin: 50% auto; */
-    padding: 50px 0 50px 0;
+    padding: 50px 0 70px 0;
     margin: 130px 30px 0 30px;
 }
 
@@ -345,6 +349,10 @@ header {
     text-align: center;
     font-size: 1.1em;
     /* font-weight: 550; */
+}
+
+.leftText {
+    text-align: left;
 }
 
 .hover-text {
@@ -459,9 +467,9 @@ a {
 
 /*SECTION*/
 
-.contact {
+/* .contact {
     max-width: 100%;
-}
+} */
 }
 
 
