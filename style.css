@@ -192,7 +192,7 @@ hr {
 
 .seo-words, .seo-screenshot {
     /* text-align: center; */
-    margin: 60px;
+    /* margin: 60px; */
     padding: 20px;
     /* background-color: aqua; */
 }
@@ -477,7 +477,7 @@ a {
     }
 
     .seo-words, .seo-screenshot {
-        margin: 100px;
+        margin: 40px;
         /* background-color: purple; */
     }
 
@@ -512,7 +512,7 @@ a {
     }
 
     .seo-words, .seo-screenshot {
-        margin: 100px 150px;
+        margin: 50px 150px;
         /* background-color: purple; */
     }
 
@@ -823,7 +823,7 @@ i.mobile-toggle {
 
 .para1 {
     /* font-size: px; */
-    line-height: 30px;
+    line-height: 28px;
 }
 
 .para2 {
