@@ -199,6 +199,15 @@ hr {
 
 /*NAVIGATION*/
 
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+}
+
 i.mobile-toggle {
     display: block;
     /* position: fixed; */
@@ -207,14 +216,24 @@ i.mobile-toggle {
     top: 20px;
     right: 20px;
     z-index: 2;
+    width: 35px;
+    z-index: 1000;
+    /* background-color: white; */
+    border-radius: 5px;
 }
 
 .blackMenu {
     color: #000;
+    background-color: white;
 }
 
 .whiteMenu {
     color: #fff;
+    background-color: #000;
+}
+
+i.mobile-toggle .blackBgMenu {
+    background-color: #000;
 }
 
 .mobile-nav {
@@ -259,7 +278,7 @@ header {
 }
 
 .headerText {
-    padding: 30px 0;
+    padding: 40px 0;
 }
 
 .About{
@@ -298,10 +317,11 @@ header {
     text-transform: uppercase;
     font-weight: 700;
     /* color: #580081; 820984 521982; */
+    padding-top: 80px;
 }
 
 .h1Skills {
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .h2 {
@@ -326,7 +346,7 @@ header {
 .h3words {
     /* margin: 50% auto; */
     padding: 50px 0 70px 0;
-    margin: 130px 30px 0 30px;
+    margin: 50px 30px 0 30px;
 }
 
 .h1, .h2, .h3, .h3LessSpace {
@@ -771,7 +791,7 @@ i.mobile-toggle {
 }
 
 .nav {
-    padding: 30px;
+    padding: 10px 30px;
     text-align: center;
     /* background-color: green; */
     /* position: fixed;
@@ -808,11 +828,18 @@ i.mobile-toggle {
     max-width: 60%;
 }
 
+#about, #skills, #certs, #testimonials {
+    padding-top: 50px;
+}
 
 /*HEADINGS*/
 
 .h1 {
     font-size: 42px;
+}
+
+.h1Skills {
+    margin-top: 50px;
 }
 
 .h2 {
@@ -824,7 +851,7 @@ i.mobile-toggle {
 }
 
 .h3words {
-   margin-top: 130px;
+   /* margin-top: 130px; */
 }
 
 /*TEXT*/
